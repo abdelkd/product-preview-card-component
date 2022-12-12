@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/abdelkd/product-preview-card-component)
+- Live Site URL: [Live Size](https://inspiring-bublanina-2dbfa9.netlify.app/)
 
 ## My process
 
@@ -63,5 +63,5 @@ cursor: pointer;
 - Responsive Design
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/abdelkd)
+- Frontend Mentor - [@abdelkd](https://www.frontendmentor.io/profile/abdelkd)
 - Twitter - [@hardsuxi](https://www.twitter.com/abdelkd)
