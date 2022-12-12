@@ -19,7 +19,11 @@
 }
 
 body {
-  @include mixins.font();
+  @include mixins.font(Montserrat);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: colors.$primary-cream;
 }
 
@@ -55,7 +59,7 @@ body {
 
       &--product-type {
         @include mixins.font(Montserrat, 1em);
-        color: $neutral-dark-grayish-blue;
+        color: colors.$neutral-dark-grayish-blue;
         margin-bottom: 0.4em;
         text-transform: uppercase;
         letter-spacing: 0.3em;

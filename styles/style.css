@@ -14,7 +14,12 @@
 }
 
 body {
-  font-family: "Montserrat", Arial;
+  font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: hsl(30deg, 38%, 92%);
 }
 
@@ -44,20 +49,20 @@ body {
     margin: 0 1.5em;
   }
   .component__text--product-type {
-    font-family: Montserrat, serif;
+    font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
     font-size: 1em;
-    color: hsl(228deg, 13%, 48%);
+    color: hsl(228deg, 12%, 48%);
     margin-bottom: 0.4em;
     text-transform: uppercase;
     letter-spacing: 0.3em;
   }
   .component__text--product-title {
+    font-family: Fraunces, serif, Arial, Helvetica, sans-serif;
     font-size: 2em;
-    font-family: Fraunces, serif;
     color: hsl(212deg, 21%, 14%);
   }
   .component__text--product-info {
-    font-family: Montserrat;
+    font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: hsl(228deg, 12%, 48%);
     margin: 1em 0 2em 0;
@@ -69,8 +74,8 @@ body {
   }
   .component__text--prices--price {
     color: hsl(158deg, 36%, 37%);
+    font-family: Fraunces, serif, Arial, Helvetica, sans-serif;
     font-size: 2em;
-    font-family: Fraunces, serif;
   }
   .component__text--prices--old-price {
     justify-self: center;
@@ -85,9 +90,9 @@ body {
     background-color: hsl(158deg, 36%, 37%);
     border: none;
     color: hsl(0deg, 0%, 100%);
-    font-family: Montserrat, serif;
-    font-weight: 700;
+    font-family: Montserrat, serif, Arial, Helvetica, sans-serif;
     font-size: 1.1em;
+    font-weight: 700;
     margin: 0 0 1em 0;
     cursor: pointer;
   }

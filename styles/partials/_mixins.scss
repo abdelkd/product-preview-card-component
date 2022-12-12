@@ -1,4 +1,4 @@
-@mixin font($font-name, $font-size: 1em) {
+@mixin font($font-name: serif, $font-size: 1em) {
   font-family: $font-name, serif, Arial, Helvetica, sans-serif;
   font-size: $font-size;
 }
