@@ -64,4 +64,4 @@ cursor: pointer;
 
 ## Author
 - Frontend Mentor - [@abdelkd](https://www.frontendmentor.io/profile/abdelkd)
-- Twitter - [@hardsuxi](https://www.twitter.com/abdelkd)
+- Twitter - [@abdelkd](https://www.twitter.com/abdelkd)
