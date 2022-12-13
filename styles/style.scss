@@ -1,16 +1,6 @@
 @use 'partials/colors';
 @use 'partials/mixins';
 
-@font-face {
-  font-family: Montserrat;
-  src: url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
-}
-
-@font-face {
-  font-family: Fraunces;
-  src: url(./fonts/Fraunces/Fraunces-VariableFont_SOFT\WONK\opsz\wght.ttf);
-}
-
 *,
 *::after,
 *::before {
@@ -84,7 +74,8 @@ body {
 
       &--prices--price {
         color: hsl(158, 36%, 37%);
-        @include mixins.font(Fraunces, 2em);
+        @include mixins.font(Fraunces, 2em, 700);
+
       }
 
       &--prices--old-price {
